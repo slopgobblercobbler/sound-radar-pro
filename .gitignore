@@ -1,0 +1,13 @@
+.gradle/
+build/
+bin/
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+tmp_build/
+*.log
+.run/
+run/

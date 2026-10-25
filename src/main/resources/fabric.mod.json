@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "soundradar",
+  "version": "${version}",
+  "name": "SoundRadar Pro",
+  "description": "Tactical client-side 3D acoustic radar and directional audio visualizer mod with classified sound cues, HUD compass, and acoustic pulses.",
+  "authors": [
+    "slopgobblercobbler"
+  ],
+  "contact": {
+    "homepage": "https://github.com/slopgobblercobbler/sound-radar-pro",
+    "sources": "https://github.com/slopgobblercobbler/sound-radar-pro",
+    "issues": "https://github.com/slopgobblercobbler/sound-radar-pro/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/soundradar/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.slopgobbler.soundradar.SoundRadarMod"
+    ],
+    "modmenu": [
+      "com.slopgobbler.soundradar.compat.SoundRadarModMenuCompat"
+    ]
+  },
+  "mixins": [
+    "soundradar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

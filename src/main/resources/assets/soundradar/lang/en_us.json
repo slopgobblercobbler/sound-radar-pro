@@ -1,0 +1,20 @@
+{
+  "modmenu.nameTranslation.soundradar": "SoundRadar Pro",
+  "modmenu.descriptionTranslation.soundradar": "Tactical client-side 3D acoustic radar and directional audio visualizer mod.",
+  "soundradar.key.category": "SoundRadar Pro",
+  "soundradar.key.toggle_radar": "Toggle Acoustic Radar HUD",
+  "soundradar.key.cycle_mode": "Cycle Radar Mode (Circle/Tape/Both)",
+  "soundradar.key.toggle_inworld": "Toggle 3D World Pulses",
+  "soundradar.key.open_config": "Open SoundRadar Config",
+  "soundradar.hud.title": "TACTICAL ACOUSTIC RADAR",
+  "soundradar.hud.hostile": "HOSTILE",
+  "soundradar.hud.passive": "PASSIVE",
+  "soundradar.hud.player": "PLAYER",
+  "soundradar.hud.creeping": "WARNING: SILENT / CREEPING",
+  "soundradar.hud.environmental": "ENVIRONMENTAL",
+  "soundradar.message.enabled": "SoundRadar Pro: Radar HUD Enabled",
+  "soundradar.message.disabled": "SoundRadar Pro: Radar HUD Disabled",
+  "soundradar.message.mode": "SoundRadar Pro: Display Mode set to %s",
+  "soundradar.message.inworld_on": "SoundRadar Pro: 3D World Pulses ON",
+  "soundradar.message.inworld_off": "SoundRadar Pro: 3D World Pulses OFF"
+}
